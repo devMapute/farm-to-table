@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  height: 50px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+
+.form-container.sign-up-container form {
+  display: block;
+  text-align: center;
+}
+
+.form-container.sign-up-container input,
+.form-container.sign-up-container button {
+  display: block;
+  margin: 10px auto;
+  width: 450px;
+}
+
+.signout-button {
+  background: rgb(35, 166, 87);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+  color: rgb(35, 166, 87);
+}
